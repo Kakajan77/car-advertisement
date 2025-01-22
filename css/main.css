@@ -41,3 +41,8 @@ a.hover-1:hover {
 .card1:hover {
     transform: translateY(-10px);
 }
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }

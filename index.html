@@ -66,6 +66,39 @@
                     veritatis ducimus quia!
                 </div>
             </div>
+            <!-- <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                            <div class="text-center">
+                                <i class="bi-facebook text-light display-1 "></i>
+                            </div>
+                            <div class="text-center text-light">
+                                Enter your pickup point and <br>
+                                time, select your car.
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class="text-center">
+                                <i class="bi-facebook text-light display-1 "></i>
+                            </div>
+                            <div  class="text-center text-light">
+                                Selcet your perferred payment <br>
+                                method
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class=" text-center">
+                                <i class="bi-facebook text-light display-1 "></i>
+                            </div>
+                            <div class="text-center text-light">
+                                Our taxi driver picks you up at<br>
+                                the given location and time.
+                            </div>
+                          </li>
+                      </ul>
+                </div>
+              </section> -->
             <div class="row ps-5">
                 <div class="col-4 ">
                     <div class="text-center">
@@ -405,8 +438,8 @@
                 type: 'loop',
                 autoplay: true,
                 interval: 2e3,
-                perPage: 2,
-                perMove: 2,
+                perPage: 1,
+                perMove: 1,
                 gap: '1rem',
                 pagination: 0,
                 breakpoints: {
@@ -419,6 +452,12 @@
             splide.mount();
         });
     </script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+          new Splide( '#image-carousel' ).mount();
+        } );
+      </script>
+      
 </body>
 
 </html>
